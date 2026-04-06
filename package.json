@@ -1,0 +1,23 @@
+{
+  "name": "poe-gpt-5-4-pro-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local GUI chat tool for Poe GPT-5.4-Pro via Poe's OpenAI-compatible API.",
+  "scripts": {
+    "backend": "python server.py",
+    "dev": "next dev",
+    "dev:all": "concurrently \"python server.py\" \"next dev\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide-react": "^0.553.0",
+    "next": "^16.2.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
